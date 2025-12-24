@@ -1,6 +1,8 @@
 import React from "react";
 import { Mail, Github, Linkedin } from "lucide-react";
 import { ajayData } from "../data/ajayData";
+
+
 import { ScrollLink } from "../components";
 
 

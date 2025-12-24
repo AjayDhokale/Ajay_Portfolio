@@ -1,6 +1,7 @@
 import React from "react";
 import { Sun, Moon } from "lucide-react";
 import { ajayData } from "../data/ajayData";
+
 import { ScrollLink } from "./index";
 export const Header = ({ isDarkMode, toggleDarkMode }) => {
     const navItems = [

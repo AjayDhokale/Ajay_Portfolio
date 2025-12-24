@@ -1,51 +1,129 @@
 export const ajayData = {
     name: "Ajay Dhokale",
-    title: "MERN Stack Developer",
-    phone: "+91 702099 0524",
+    title: "MERN Stack Developer (Fresher)",
+    phone: "+91 70209 90524",
     email: "ajaydhokale1508@gmail.com",
     linkedin: "https://www.linkedin.com/in/ajay-dhokale/",
     github: "https://github.com/AjayDhokale",
+
     objective:
-        "Aspiring MERN Stack Developer passionate about building dynamic, responsive, and user-friendly web applications. Proficient in modern JavaScript frameworks with strong foundations in **React**, **Node.js**, and databases. . Recently completed a comprehensive MERN Stack course from TechRel Institute, seeking opportunities to contribute to real-world projects and grow as a full-stack developer.",
+        "MERN Stack Developer with hands-on experience building full-stack web applications using React, Node.js, Express, and MongoDB. Skilled in developing responsive UIs, integrating REST APIs, and implementing secure authentication using JWT. Seeking an entry-level role to contribute to real-world projects and grow as a full-stack developer.",
+
     skills: {
-        frontend: ["HTML", "CSS", "Tailwind CSS", "JavaScript", "React"],
-        backend: ["Node.js", "Express.js"],
-        databases: ["MongoDB", "MySQL"],
-        tools: ["Git", "GitHub", "VS Code"],
-        concepts: ["RESTful APIs", "Responsive Design", "SPA"]
+        frontend: [
+            "HTML",
+            "CSS",
+            "JavaScript (ES6+)",
+            "React.js",
+            "Tailwind CSS",
+            "Bootstrap",
+            "Responsive Design"
+        ],
+        backend: [
+            "Node.js",
+            "Express.js",
+            "REST APIs",
+            "JWT Authentication"
+        ],
+        databases: [
+            "MongoDB",
+            "Mongoose",
+            "MySQL"
+        ],
+        tools: [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Postman",
+            "npm",
+            "Vercel",
+            "Netlify"
+        ],
+        concepts: [
+            "CRUD Operations",
+            "State Management (Redux, Context API, Hooks)",
+            "Asynchronous JavaScript",
+            "Debugging"
+        ]
     },
+
     projects: [
         {
             title: "Google Gemini Clone",
-            description: "Developed an AI chat assistant clone...",
-            tech: ["React", "Node.js", "AI APIs"],
-            link: "#"
+            description:
+                "Built an AI-powered chat application with modern UI, markdown support, authentication, and chat history management.",
+            tech: [
+                "React",
+                "Tailwind CSS",
+                "Node.js",
+                "Express",
+                "Gemini API",
+                "MongoDB"
+            ],
+            link: "https://frontend-gemini.vercel.app/login"
+        },
+        {
+            title: "Mega Blog App",
+            description:
+                "Developed a full-featured blog application with authentication, CRUD operations, and real-time updates using Appwrite backend services.",
+            tech: [
+                "React",
+                "Redux",
+                "React Router",
+                "Appwrite"
+            ],
+            link: "https://mega-blog-app-flax.vercel.app/"
         },
         {
             title: "Todo List App (React)",
-            description: "Single-page task manager app...",
-            tech: ["React", "CRUD", "State Management"],
+            description:
+                "Created a task management application allowing users to add, edit, and delete tasks using React hooks and local state management.",
+            tech: [
+                "React",
+                "JavaScript",
+                "CRUD",
+                "Hooks"
+            ],
             link: "https://ajaydhokale-todo-app.netlify.app/"
         },
         {
+            title: "Portfolio Website",
+            description:
+                "Built a personal portfolio website to showcase projects, resume, and contact information with responsive design and smooth animations.",
+            tech: [
+                "React",
+                "Tailwind CSS"
+            ],
+            link: "https://ajay-dhokale-portfolio.netlify.app/"
+        },
+        {
             title: "50+ Mini Web Projects",
-            description: "Built over 50 small projects...",
-            tech: ["HTML", "CSS", "JavaScript"],
+            description:
+                "Completed over 50 mini projects focusing on core web fundamentals, API handling, animations, and responsive layouts.",
+            tech: [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             link: "https://ajaydhokale.github.io/All-Projects/"
         }
     ],
+
     experience: [
         {
-            title: "Web Development Intern",
-            company: "Revolution IT Solution, Kolhapur",
-            duration: "Jul 2023 - Aug 2023",
+            title: "React Developer Intern",
+            company: "SK Bit Software Solution, Pune",
+            duration: "Jun 2025 - Nov 2025",
             details: [
-                "Gained hands-on experience in frontend web development.",
-                "Designed responsive UI using HTML, CSS, and JavaScript.",
-                "Collaborated with team members to improve UX and performance."
+                "Developed and maintained responsive web applications using React.js and Tailwind CSS.",
+                "Built a full-stack AI chat application with React frontend and Node.js backend.",
+                "Implemented JWT-based authentication, protected routes, and role-based access control.",
+                "Integrated REST APIs using Axios and handled async operations with proper error handling.",
+                "Used Redux Toolkit for global state management and performance optimization."
             ]
         }
     ],
+
     education: [
         {
             type: "B.Tech",
@@ -62,8 +140,9 @@ export const ajayData = {
             grade: "86.88%"
         }
     ],
+
     certifications: [
-        "MERN Stack Development Course - TechRel Institute (Nov 2024-Jun 2025)",
+        "MERN Stack Development Course - TechRel Technologies Pvt Ltd (Nov 2024 - May 2025)",
         "Web Development - Stromsofts Technology (2023)",
         "Innovating with ChatGPT - Mirasung Technologies"
     ]

@@ -1,5 +1,6 @@
 import React from 'react'
-import { ajayData } from '../data/ajayData'
+import { ajayData } from "../data/ajayData";
+
 import { Github, Linkedin } from 'lucide-react'
 
 export const Footer = () => {
