@@ -28,12 +28,12 @@ export const Header = ({ isDarkMode, toggleDarkMode }) => {
                         ))}
                     </div>
 
-                    <button
+                    {/* <button
                         onClick={toggleDarkMode}
                         className="p-2 rounded-full bg-gray-700 hover:bg-gray-600 text-white transition-colors duration-300"
                     >
                         {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </header>
