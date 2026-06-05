@@ -1,6 +1,7 @@
 import { Mail, Phone } from 'lucide-react'
 import React from 'react'
-import { ajayData } from '../data/ajayData'
+import { ajayData } from "../data/ajayData";
+ 
 
 export const Contact = ({iconColor, subTextColor}) => {
     return (

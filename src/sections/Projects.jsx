@@ -1,7 +1,9 @@
 
 import { Link } from 'lucide-react'
 import React from 'react'
-import { ajayData } from '../data/ajayData'
+import { ajayData } from "../data/ajayData";
+
+
 import { ProjectCard } from '../components'
 
 export const Projects = ({iconColor}) => {

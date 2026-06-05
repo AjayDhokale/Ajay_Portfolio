@@ -1,5 +1,7 @@
 import React from "react";
 import { ajayData } from "../data/ajayData";
+
+
 import { Briefcase, GraduationCap } from "lucide-react";
 
 export const ExperienceEducation = ({ iconColor }) => {

@@ -1,6 +1,8 @@
 import { Code } from 'lucide-react'
 import React from 'react'
-import { ajayData } from '../data/ajayData'
+import { ajayData } from "../data/ajayData";
+
+
 import { SkillPill } from '../components'
 
 export const Skill = ({textColor,iconColor}) => {
